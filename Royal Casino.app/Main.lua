@@ -25,7 +25,7 @@ local COLORS = {
 
 local MIN_BET = 10
 local INITIAL_BALANCE = 0
-local DAILY_BONUS = 100
+-- local DAILY_BONUS = 100 -- Disabled
 
 -- Paths
 local appPath = filesystem.path(system.getCurrentScript())
@@ -103,16 +103,7 @@ local function deductCredits(amount)
 end
 
 local function checkDailyBonus()
-	local currentTime = os.time()
-	local lastPlayed = playerData.lastPlayed or 0
-	
-	-- Check if 24 hours have passed (86400 seconds)
-	if currentTime - lastPlayed >= 86400 then
-		addCredits(DAILY_BONUS)
-		playerData.lastPlayed = currentTime
-		saveBalance()
-		return true
-	end
+	-- Daily bonus disabled
 	return false
 end
 
@@ -693,10 +684,10 @@ localization = system.getCurrentScriptLocalization()
 -- Load balance
 loadBalance()
 
--- Check daily bonus
-if checkDailyBonus() then
-	GUI.alert(localization.msgDailyBonus)
-end
+-- Daily bonus disabled
+-- if checkDailyBonus() then
+--	GUI.alert(localization.msgDailyBonus)
+-- end
 
 -- Create main menu
 createMainMenu()
