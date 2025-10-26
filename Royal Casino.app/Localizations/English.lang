@@ -1,0 +1,62 @@
+{
+	appName = "Royal Casino",
+	balance = "Balance",
+	addCredits = "Add Credits",
+	play = "PLAY",
+	back = "Back",
+	exit = "Exit",
+	settings = "Settings",
+	
+	-- Statistics
+	statistics = "Statistics",
+	gamesPlayed = "Games Played",
+	totalWins = "Total Wins",
+	totalLosses = "Total Losses",
+	biggestWin = "Biggest Win",
+	
+	-- Games
+	slotMachine = "SLOT MACHINE",
+	roulette = "ROULETTE",
+	blackjack = "BLACKJACK",
+	
+	-- Slot Machine
+	slotBet = "Bet",
+	slotSpin = "SPIN",
+	slotWin = "WIN",
+	slotJackpot = "JACKPOT!",
+	
+	-- Roulette
+	rouletteNumber = "Number",
+	rouletteRed = "Red",
+	rouletteBlack = "Black",
+	rouletteEven = "Even",
+	rouletteOdd = "Odd",
+	rouletteLow = "1-18",
+	rouletteHigh = "19-36",
+	rouletteSpin = "SPIN",
+	roulettePlaceBet = "Place your bet",
+	rouletteHistory = "History",
+	
+	-- Blackjack
+	blackjackHit = "HIT",
+	blackjackStand = "STAND",
+	blackjackDouble = "DOUBLE",
+	blackjackDeal = "DEAL",
+	blackjackDealer = "Dealer",
+	blackjackPlayer = "Player",
+	blackjackBust = "BUST!",
+	blackjackWin = "YOU WIN!",
+	blackjackLose = "DEALER WINS",
+	blackjackPush = "PUSH",
+	
+	-- Messages
+	msgInsufficientFunds = "Insufficient funds!",
+	msgDailyBonus = "Daily bonus received: 100 CC",
+	msgCreditsAdded = "Credits added successfully",
+	msgEnterAmount = "Enter amount",
+	msgMinBet = "Minimum bet: 10 CC",
+	msgMaxBet = "Maximum bet",
+	msgWelcome = "Welcome to Royal Casino!",
+	msgGoodLuck = "Good luck!",
+}
+

@@ -1,0 +1,62 @@
+{
+	appName = "Королевское Казино",
+	balance = "Баланс",
+	addCredits = "Пополнить",
+	play = "ИГРАТЬ",
+	back = "Назад",
+	exit = "Выход",
+	settings = "Настройки",
+	
+	-- Statistics
+	statistics = "Статистика",
+	gamesPlayed = "Игр сыграно",
+	totalWins = "Всего выиграно",
+	totalLosses = "Всего проиграно",
+	biggestWin = "Самый большой выигрыш",
+	
+	-- Games
+	slotMachine = "ИГРОВОЙ АВТОМАТ",
+	roulette = "РУЛЕТКА",
+	blackjack = "БЛЭКДЖЕК",
+	
+	-- Slot Machine
+	slotBet = "Ставка",
+	slotSpin = "КРУТИТЬ",
+	slotWin = "ВЫИГРЫШ",
+	slotJackpot = "ДЖЕКПОТ!",
+	
+	-- Roulette
+	rouletteNumber = "Число",
+	rouletteRed = "Красное",
+	rouletteBlack = "Черное",
+	rouletteEven = "Четное",
+	rouletteOdd = "Нечетное",
+	rouletteLow = "1-18",
+	rouletteHigh = "19-36",
+	rouletteSpin = "КРУТИТЬ",
+	roulettePlaceBet = "Сделайте ставку",
+	rouletteHistory = "История",
+	
+	-- Blackjack
+	blackjackHit = "ЕЩЕ",
+	blackjackStand = "ХВАТИТ",
+	blackjackDouble = "УДВОИТЬ",
+	blackjackDeal = "РАЗДАТЬ",
+	blackjackDealer = "Дилер",
+	blackjackPlayer = "Игрок",
+	blackjackBust = "ПЕРЕБОР!",
+	blackjackWin = "ВЫ ВЫИГРАЛИ!",
+	blackjackLose = "ДИЛЕР ВЫИГРАЛ",
+	blackjackPush = "НИЧЬЯ",
+	
+	-- Messages
+	msgInsufficientFunds = "Недостаточно средств!",
+	msgDailyBonus = "Ежедневный бонус получен: 100 CC",
+	msgCreditsAdded = "Кредиты успешно добавлены",
+	msgEnterAmount = "Введите сумму",
+	msgMinBet = "Минимальная ставка: 10 CC",
+	msgMaxBet = "Максимальная ставка",
+	msgWelcome = "Добро пожаловать в Королевское Казино!",
+	msgGoodLuck = "Удачи!",
+}
+

@@ -1,0 +1,23 @@
+# MineOS Application Data
+*.cfg
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+
